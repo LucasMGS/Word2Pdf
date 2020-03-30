@@ -1,0 +1,13 @@
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\bin\Debug\word2pdf.exe.config
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\bin\Debug\word2pdf.exe
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\bin\Debug\word2pdf.pdb
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\bin\Debug\SautinSoft.Document.dll
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\bin\Debug\SautinSoft.Document.xml
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.csprojAssemblyReference.cache
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.Form1.resources
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.Properties.Resources.resources
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.csproj.GenerateResource.cache
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.csproj.CopyComplete
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.exe
+C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.pdb
