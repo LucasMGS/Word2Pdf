@@ -25,7 +25,8 @@ namespace word2pdf
                 dc.Save(pdfPath);
 
                 txtFileName.Text = string.Empty;
-                btnSelecionar.Enabled = false;
+                btnSelecionar.Enabled = true;
+                btnConverter.Enabled = false;
 
                 MessageBox.Show(this, "Arquivo convertido com sucesso!", @"Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -35,7 +36,8 @@ namespace word2pdf
                 Console.WriteLine("Erro:", ex.Message);
 
                 txtFileName.Text = string.Empty;
-                btnSelecionar.Enabled = false;
+                btnSelecionar.Enabled = true;
+                btnConverter.Enabled = false;
             }
         }
 
