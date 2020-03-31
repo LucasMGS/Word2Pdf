@@ -11,3 +11,16 @@ C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.csproj.
 C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.csproj.CopyComplete
 C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.exe
 C:\Users\Lucas Moreira\source\repos\word2pdf\word2pdf\obj\Debug\word2pdf.pdb
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\bin\Debug\word2pdf.exe.config
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\bin\Debug\word2pdf.exe
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\bin\Debug\word2pdf.pdb
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\bin\Debug\SautinSoft.Document.dll
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\bin\Debug\SautinSoft.Document.xml
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.csprojAssemblyReference.cache
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.FrmPrincipal.resources
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.Properties.Resources.resources
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.csproj.GenerateResource.cache
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.csproj.CoreCompileInputs.cache
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.csproj.CopyComplete
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.exe
+C:\dev\fork_word2Pdf\Word2Pdf\word2pdf\obj\Debug\word2pdf.pdb
