@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>word2pdf</RootNamespace>
     <AssemblyName>word2pdf</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SautinSoft.Document, Version=4.3.3.5, Culture=neutral, PublicKeyToken=e759c76c7515592a, processorArchitecture=MSIL">
-      <HintPath>..\packages\sautinsoft.document.4.3.3.5\lib\net47\SautinSoft.Document.dll</HintPath>
+      <HintPath>..\packages\sautinsoft.document.4.3.3.5\lib\net45\SautinSoft.Document.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,6 +69,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
