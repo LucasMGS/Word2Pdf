@@ -16,7 +16,7 @@ namespace word2pdf
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Word2Pdf());
+            Application.Run(new FrmPrincipal());
         }
     }
 }
