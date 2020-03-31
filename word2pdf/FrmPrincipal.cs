@@ -12,15 +12,6 @@ namespace word2pdf
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-        }
-
         private void BtnConverter_Click(object sender, EventArgs e)
         {
             try
