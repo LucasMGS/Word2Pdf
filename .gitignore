@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/word2pdf/obj
+/word2pdf/bin
+/.vs/word2pdf/v16

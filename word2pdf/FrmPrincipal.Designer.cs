@@ -1,6 +1,6 @@
 ﻿namespace word2pdf
 {
-    partial class Form1
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,61 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtBox_fileName = new System.Windows.Forms.TextBox();
+            this.txtFileName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnConverter = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnSelecionar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtBox_fileName
+            // txtFileName
             // 
-            this.txtBox_fileName.Location = new System.Drawing.Point(24, 34);
-            this.txtBox_fileName.Name = "txtBox_fileName";
-            this.txtBox_fileName.Size = new System.Drawing.Size(206, 20);
-            this.txtBox_fileName.TabIndex = 1;
-            this.txtBox_fileName.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.txtFileName.Enabled = false;
+            this.txtFileName.Location = new System.Drawing.Point(24, 34);
+            this.txtFileName.Name = "txtFileName";
+            this.txtFileName.Size = new System.Drawing.Size(215, 20);
+            this.txtFileName.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 18);
+            this.label1.Location = new System.Drawing.Point(84, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 13);
+            this.label1.Size = new System.Drawing.Size(101, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Nome do arquivo word:";
+            this.label1.Text = "Selecione o arquivo";
             // 
             // btnConverter
             // 
-            this.btnConverter.Location = new System.Drawing.Point(89, 60);
+            this.btnConverter.Enabled = false;
+            this.btnConverter.Location = new System.Drawing.Point(143, 60);
             this.btnConverter.Name = "btnConverter";
-            this.btnConverter.Size = new System.Drawing.Size(75, 23);
+            this.btnConverter.Size = new System.Drawing.Size(75, 37);
             this.btnConverter.TabIndex = 3;
             this.btnConverter.Text = "Converter";
             this.btnConverter.UseVisualStyleBackColor = true;
             this.btnConverter.Click += new System.EventHandler(this.BtnConverter_Click);
             // 
-            // label2
+            // btnSelecionar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(227, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Obs: O arquivo word tem que estar no desktop";
+            this.btnSelecionar.Location = new System.Drawing.Point(51, 60);
+            this.btnSelecionar.Name = "btnSelecionar";
+            this.btnSelecionar.Size = new System.Drawing.Size(75, 37);
+            this.btnSelecionar.TabIndex = 4;
+            this.btnSelecionar.Text = "Selecionar";
+            this.btnSelecionar.UseVisualStyleBackColor = true;
+            this.btnSelecionar.Click += new System.EventHandler(this.btnSelecionar_Click);
             // 
-            // Form1
+            // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(260, 123);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(260, 105);
+            this.Controls.Add(this.btnSelecionar);
             this.Controls.Add(this.btnConverter);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtBox_fileName);
-            this.Name = "Form1";
+            this.Controls.Add(this.txtFileName);
+            this.Name = "FrmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Word to PDF";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,10 +91,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtBox_fileName;
+        private System.Windows.Forms.TextBox txtFileName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnConverter;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnSelecionar;
     }
 }
 
